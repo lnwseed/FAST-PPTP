@@ -101,9 +101,27 @@ fi
 service pptpd restart
 cd
 apt-get install gcc g++ -y
-wget https://raw.githubusercontent.com/lnwseed/FAST-PPTP/master/addpptp
-mv addpptp /bin/addpptp
-chmod +x /bin/addpptp
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/alluser-pptp
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/menu
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-add-pptp
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-delete-pptp
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-detail-pptp
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-expire-pptp
+wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-login-pptp
+mv addpptp /bin/alluser-pptp
+mv addpptp /bin/menu
+mv addpptp /bin/user-add-pptp
+mv addpptp /bin/user-delete-pptp
+mv addpptp /bin/user-detail-pptp
+mv addpptp /bin/user-expire-pptp
+mv addpptp /bin/user-login-pptp
+chmod +x /bin/alluser-pptp
+chmod +x /bin/menu
+chmod +x /bin/user-add-pptp
+chmod +x /bin/user-delete-pptp
+chmod +x /bin/user-detail-pptp
+chmod +x /bin/user-expire-pptp
+chmod +x /bin/user-login-pptp
 clear
 sleep 10
 echo "............"
