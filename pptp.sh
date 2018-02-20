@@ -108,13 +108,13 @@ wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-delete-pptp
 wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-detail-pptp
 wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-expire-pptp
 wget https://raw.githubusercontent.com/lnwseed/MENU-PPTP/master/user-login-pptp
-mv addpptp /bin/alluser-pptp
-mv addpptp /bin/menu
-mv addpptp /bin/user-add-pptp
-mv addpptp /bin/user-delete-pptp
-mv addpptp /bin/user-detail-pptp
-mv addpptp /bin/user-expire-pptp
-mv addpptp /bin/user-login-pptp
+mv alluser-pptp /bin/alluser-pptp
+mv menu /bin/menu
+mv user-add-pptp /bin/user-add-pptp
+mv user-delete-pptp /bin/user-delete-pptp
+mv user-detail-pptp /bin/user-detail-pptp
+mv user-expire-pptp /bin/user-expire-pptp
+mv user-login-pptp /bin/user-login-pptp
 chmod +x /bin/alluser-pptp
 chmod +x /bin/menu
 chmod +x /bin/user-add-pptp
