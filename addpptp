@@ -29,10 +29,10 @@ echo "$username *   $password   *  $saat_expired"  >> /var/lib/premium-script/da
  clear
 echo ""
 echo ""
-echo -e "                 >>> O C S P A N E L - V P N ™ <<< "
+echo -e "                  >>> O C S P A N E L - V P N ™ <<< "
 echo -e "              \033[1;38;48m ======================================= \033[0m"
 echo ""
-echo -e "                    > > > P P T P - V P N < < < "
+echo -e "                     > > > P P T P - V P N < < < "
 echo ""
 echo -e "              \033[1;38;48m ======================================= \033[0m"
 echo ""
