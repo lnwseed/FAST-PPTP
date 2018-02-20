@@ -98,11 +98,9 @@ fi
 service pptpd restart
 cd
 apt-get install gcc g++ -y
-wget https://raw.githubusercontent.com/LOWCLASS-SCRIPT/FAST-PPTP/master/addpptp.c
-gcc addpptp.c -o addpptp
+wget https://raw.githubusercontent.com/lnwseed/FAST-PPTP/master/addpptp
 mv addpptp /bin/addpptp
 chmod +x /bin/addpptp
-rm addpptp.c
 clear
 sleep 10
 echo "............"
